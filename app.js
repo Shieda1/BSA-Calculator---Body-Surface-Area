@@ -56,7 +56,7 @@ btn.addEventListener('click', function() {
 
 // calculation
 
-// BSA = 0.007184 * weight ^ 0.425 * height ^ 0.725
+// BSA = 0.007184 * weight^0.425 * height^0.725
 
 function computeBSA() {
   return 0.007184 * Math.pow(Number(weight.value), 0.425) * Math.pow(Number(height.value), 0.725);
